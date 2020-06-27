@@ -2,7 +2,6 @@
   "name": "Assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gowths20.github.io/Assignment",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",
@@ -17,12 +16,12 @@
     "three": "^0.116.1"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "Assignment -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
